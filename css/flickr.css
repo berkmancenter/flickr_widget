@@ -1,0 +1,12 @@
+.flickr_badge_wrapper {
+    max-width: 255px !important;
+    border: 0 !important;
+    margin: 0 auto;
+}
+.flickr_image {
+    display: inline-block;
+    margin: 5px;
+}
+.flickr_image img {
+    max-width: none;
+}
