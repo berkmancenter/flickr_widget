@@ -87,11 +87,11 @@ function widget_flickr_control() {
 	?>
 	<p><label for="flickr-title"><?php _e('Title:'); ?> <input style="width: 250px;" id="flickr-title" name="flickr-title" type="text" value="<?php echo $title; ?>" /></label></p>
 	<p><label for="flickr-rss-url"><?php _e('Flickr RSS URL:'); ?> <input style="width: 250px;" id="flickr-title" name="flickr-rss-url" type="text" value="<?php echo $flickr_rss_url; ?>" /></label></p>
+    <p><label for="flickr-lightbox"><?php _e('Use jQuery Lightbox plugin:'); ?></label> <input type="checkbox" name="flickr-lightbox" id="flickr-lightbox" value="1" <?php echo $options['lightbox'] ? 'checked="checked"' : ''; ?>" /></p>
 	<p style="text-align:center; line-height: 30px;"><?php _e('How many photos  would you like to display?'); ?> <select id="rss-items" name="rss-items"><?php for ( $i = 1; $i <= 10; ++$i ) echo "<option value='$i' ".($items==$i ? "selected='selected'" : '').">$i</option>"; ?></select></p>
 	<p align='left'>
 	* Your RSS feed can be found on your Flickr homepage. Scroll down to the bottom of the page until you see the <em>Feed</em> link and copy that into the box above.<br />
 	<br clear='all'></p>
-    <p><label for="flickr-lightbox"><?php _e('Use jQuery Lightbox plugin:'); ?></label> <input type="checkbox" name="flickr-lightbox" id="flickr-lightbox" value="1" checked="<?php echo $options['lightbox'] ? 'checked' : ''; ?>" /></p>
 	<p>Leave the Flickr RSS URL blank to display <a href="http://inphotos.org/">Donncha's</a> Flickr photos.</p>
 	<input type="hidden" id="flickr-submit" name="flickr-submit" value="1" />
 	<?php
