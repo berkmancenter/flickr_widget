@@ -104,7 +104,7 @@ function flickr_widgets_init() {
 	register_sidebar_widget('Flickr', 'widget_flickr');
     if ( $options['lightbox'] ) {
         wp_register_script('lightbox', plugins_url('/js/jquery.lightbox-0.5.pack.js', __FILE__), array('jquery'));
-        wp_register_script('flickr-widget', plugins_url('/js/flickr_widget.js', __FILE__), array('jquery'));
+        wp_register_script('flickr-widget', plugins_url('/js/flickr_widget.js', __FILE__), array('jquery', 'lightbox'));
         wp_enqueue_script('lightbox');
         wp_enqueue_script('flickr-widget');
         wp_enqueue_style('lightbox', plugins_url( '/css/jquery.lightbox-0.5.css', __FILE__ ));
