@@ -1,20 +1,13 @@
 <?php
 /*
 Plugin Name: Flickr Widget
-Plugin URI: http://donncha.wordpress.com/flickr-widget/
+Plugin URI: https://github.com/berkmancenter/flickr_widget
 Description: A widget which will display your latest Flickr photos.
-Author: Donncha O Caoimh
+Author: Justin Clark
 Version: 0.1
-Author URI: http://inphotos.org/
 
-Installing
-1. Make sure you have the Widget plugin available at http://automattic.com/code/widgets/
-1. Copy flickr_widget.php to your plugins folder, /wp-content/plugins/widgets/
-2. Activate it through the plugin management screen.
-3. Go to Themes->Sidebar Widgets and drag and drop the widget to wherever you want to show it.
-
-Changelog
-0.1 = First public release.
+This widget is based on Donncha O Caoimh's Flickr widget plugin from
+http://donncha.wordpress.com/flickr-widget/
 */
 
 function widget_flickr($args) {
