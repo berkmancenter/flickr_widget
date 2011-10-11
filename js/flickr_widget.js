@@ -1,5 +1,5 @@
 jQuery(function() {
-    jQuery('#flickr_badge_wrapper .flickr_image a').lightBox({
+    jQuery('.flickr_badge_wrapper .flickr_image a').lightBox({
         imageLoading: '<?php echo plugins_url( '/images/lightbox-ico-loading.gif', __FILE__ ) ?>',
         imageBtnClose: '<?php echo plugins_url( '/images/lightbox-btn-close.gif', __FILE__ ) ?>',
         imageBtnPrev: '<?php echo plugins_url( '/images/lightbox-btn-prev.gif', __FILE__ ) ?>',
