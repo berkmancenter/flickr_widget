@@ -91,7 +91,7 @@ function widget_flickr_control() {
 	<p align='left'>
 	* Your RSS feed can be found on your Flickr homepage. Scroll down to the bottom of the page until you see the <em>Feed</em> link and copy that into the box above.<br />
 	<br clear='all'></p>
-    <p><label for="flickr-lightbox"><?php _e('Use jQuery Lightbox plugin:'); ?></label> <input type="checkbox" name="flickr-lightbox" id="flickr-lightbox" value="1" checked="<?php echo $options['lightbox'] ? 'checked' : ''; ?> /></p>
+    <p><label for="flickr-lightbox"><?php _e('Use jQuery Lightbox plugin:'); ?></label> <input type="checkbox" name="flickr-lightbox" id="flickr-lightbox" value="1" checked="<?php echo $options['lightbox'] ? 'checked' : ''; ?>" /></p>
 	<p>Leave the Flickr RSS URL blank to display <a href="http://inphotos.org/">Donncha's</a> Flickr photos.</p>
 	<input type="hidden" id="flickr-submit" name="flickr-submit" value="1" />
 	<?php
