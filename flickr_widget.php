@@ -49,7 +49,7 @@ function widget_flickr($args) {
 <!-- Start of Flickr Badge -->
 <div class="flickr_badge_wrapper">
 <?php echo $out; ?>
-<a href="<?php echo esc_url( $flickr_home ) ?>">Flickr Home</a>
+<div class="flickr_link"><a href="<?php echo esc_url( $flickr_home ) ?>">Flickr Home</a></div>
 </div>
 <!-- End of Flickr Badge -->
 
